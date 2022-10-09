@@ -1,0 +1,144 @@
+.wrapper_slider{
+  transition: all 0.3s;
+  display: inline-block;
+  text-align: center;
+  max-width: 1120px;
+  max-height: 1040px;
+  overflow: hidden;
+  @media (max-width: 645px) {
+    max-height: none;
+  }
+}
+.animals {
+  transition: all 0.3s;
+  padding: 15px 20px 0 20px;
+  margin: 180px 0 0 0;
+  overflow: hidden;
+  @media (max-width: 1120px) {
+    margin: 140px 0 0 0;
+  }
+  @media (max-width: 650px) {
+    padding: 0 20px;
+    margin: 80px 0 0 0;
+  }
+  @media (max-width: 493px) {
+    padding: 0;
+    margin: 20px;
+  }
+}
+.animal_all {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+  max-width: 1120px;
+  transition: all 0.3s;
+  @media (max-width: 1262px) {
+    // display: none;
+  }
+}
+.animal_row {
+  transition: all 0.3s;
+  cursor: pointer;
+  // position: relative;
+  border: 1px solid #fa6f32;
+  border-radius: 5px;
+  max-width: 366px;
+  // width: 343px; 
+  overflow: hidden;
+  img {
+    display: block;
+    object-fit: contain;
+    transition: all 0.5s;
+  }
+  &:hover {
+    img {
+      // width: 110%;
+      // height: 110%;
+      transform: scale(1.1);
+      margin: 0 0px 0 0px;
+      transition: all 0.5s;
+    }
+  }
+  @media (max-width: 1262px) {
+    min-width: 290px;
+  }
+  @media (max-width: 990px) {
+    width: 290px;
+  }
+  @media (max-width: 645px) {
+    width: 100%;
+  }
+  @media (max-width: 385px) {
+    max-width: 260px;
+  }
+}
+.animal_three {
+  display: flex;
+  column-gap: 20px;
+  row-gap: 0px;
+  padding: 0 4px 0 0;
+  transition: all 0.3s;
+  @media (max-width: 1262px) {
+    column-gap: 20px;
+  }
+  @media (max-width: 600px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.animals{
+  transition: all 0.3s;
+  @media (max-width: 1262px) {
+    display: none;
+  }
+}
+.animals2{
+  padding: 15px 20px 0 20px;
+  margin: 180px 0 0 0;
+  overflow: hidden;
+  display: none;
+  transition: all 0.3s;
+  @media (max-width: 1262px) {
+    display: block;
+  }
+  @media (max-width: 1120px) {
+    margin: 90px 0 0 0;
+  }
+  @media (max-width: 645px) {
+    display: none;
+  }
+}
+.animals3{
+  display: none;
+  padding: 0px 00px 0px 00px;
+  margin: 40px 0 0px 0;
+  overflow: hidden;
+  transition: all 0.3s;
+  @media (max-width: 645px) {
+    display: block;
+    
+  }
+}
+.three_container{
+  max-width: 914px;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s;
+  @media (max-width: 990px) {
+    max-width: 604px;
+    
+  }
+}
+.first_three{
+  position: relative;
+  transition: all 0.3s;
+  
+}
+.second_three{
+  position: relative;
+  transition: all 0.3s;
+}

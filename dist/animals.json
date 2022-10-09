@@ -1,0 +1,50 @@
+[
+  {   
+      "img": "./images/panda_animal.png",
+      "name": "GIANT PANDAS",
+      "description": "Native to Southwest China",
+      "food": "fruit"
+  },
+  {   
+    "img": "./images/eagles_animal.png",
+    "name": "EAGLES",
+    "description": "Native to South America",
+    "food": "meat"
+  },
+  {   
+    "img": "./images/sloth_animal.png",
+    "name": "TWO-TOED SLOTH",
+    "description": "Mesoamerica, South America",
+    "food": "fruit"
+  },
+  {   
+    "img": "./images/penguins_animal.png",
+    "name": "PENGUINS",
+    "description": "Native to Antarctica",
+    "food": "meat"
+  },
+  {   
+    "img": "./images/gorillas_animal.png",
+    "name": "GORILLAS",
+    "description": "Native to Congo",
+    "food": "fruit"
+  },
+  {   
+    "img": "./images/aligators_animal.png",
+    "name": "ALLIGATORS",
+    "description": "Native to Southeastern",
+    "food": "meat"
+  },
+  {   
+    "img": "./images/cheetohs_animal.png",
+    "name": "CHEETAHS",
+    "description": "Native to Africa",
+    "food": "meat"
+  },
+  {   
+    "img": "./images/gorillas2_animal.png",
+    "name": "GORILLAS",
+    "description": "Native to Congo",
+    "food": "fruit"
+  }
+]

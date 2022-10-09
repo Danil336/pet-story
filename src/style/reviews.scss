@@ -1,0 +1,52 @@
+.reviews_frapper{
+  max-width: 1160px;
+  max-height: 491px;
+  display: inline-block;
+  overflow: hidden;
+  @media (max-width: 1200px) {
+    max-width: 940px;
+  }
+
+}
+.review_all {
+  top: 0;
+  left: 0;
+  gap: 28px;
+  position: relative;
+  max-width: 1160px;
+  transition: all 0.3s;
+  @media (max-width: 945px) {
+    justify-content: center;
+  }
+}
+input[type="range"] {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #bdc3c7;
+  width: 500px;
+  height: 5px;
+  border-radius: 5px;
+  margin: 22px auto 0 auto;
+  outline: 0;
+    @media (max-width: 945px) {
+    display: none;
+  }
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: orange;
+  width: 12.5%;
+  height: 6px;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  transform: scale(1.6);
+  transition: .3s ease-in-out;
+}​
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 2px solid orange;
+  }
+  input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.8);
+  }
